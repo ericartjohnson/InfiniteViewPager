@@ -46,8 +46,8 @@ public class InfiniteViewPager extends ViewPager {
     /**
      * Return current item index, skipping calculation from adapter's item index.
      */
-    public void getRealCurrentItem() {
-        super.getCurrentItem();
+    public int getRealCurrentItem() {
+        return super.getCurrentItem();
     }
 
     @Override
