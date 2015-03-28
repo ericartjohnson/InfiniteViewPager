@@ -1,3 +1,5 @@
+<b>In this fork:</b> Add methods in View Pager class support getting/setting actual current item of view pager.
+
 Infinite View Pager
 ===============
 
